@@ -1,7 +1,6 @@
-🏥 MediNova Health Care Website
+# 🏥 Health Care Website
 
-🌐 Live Website
-
+🌐 **Live Website**  
 🔗 https://suriyadev37.github.io/health-care-website/
 
 <p align="center">
@@ -24,7 +23,20 @@ Modern responsive healthcare website developed using HTML, CSS, and JavaScript w
   </a>
 </p>
 
-🚀 Features
+---
+
+# 📸 Project Preview
+
+<div>
+<br>
+    <img src="https://suriyadev37.github.io/health-care-website/screenshots/Home.png" width="100%" alt="Home Preview"/><br><br>
+   <img src="https://suriyadev37.github.io/health-care-website/screenshots/service.png" width="100%" alt="Home Preview"/><br><br>
+   <img src="https://suriyadev37.github.io/health-care-website/screenshots/About.png" width="100%" alt="Home Preview"/><br><br>
+   <img src="https://suriyadev37.github.io/health-care-website/screenshots/dept.png" width="100%" alt="Home Preview"/><br><br>
+   <img src="https://suriyadev37.github.io/health-care-website/screenshots/contact.png" width="100%" alt="Home Preview"/>
+</div>
+
+# 🚀 Features
 
 ✅ Responsive Healthcare Website  
 ✅ Appointment Booking Form  
@@ -37,7 +49,9 @@ Modern responsive healthcare website developed using HTML, CSS, and JavaScript w
 ✅ Modern Dark Theme Layout  
 ✅ Multi-Page Website Structure  
 
-🛠️ Technologies Used
+---
+
+# 🛠️ Technologies Used
 
 | Technology | Purpose |
 |------------|---------|
@@ -47,7 +61,9 @@ Modern responsive healthcare website developed using HTML, CSS, and JavaScript w
 | Font Awesome | Icons |
 | Responsive Design | Mobile Compatibility |
 
-✨ Key Highlights
+---
+
+# ✨ Key Highlights
 
 🔥 Professional Healthcare UI  
 🔥 Fully Responsive Design  
