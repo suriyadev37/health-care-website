@@ -3,29 +3,21 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact | LifeCare Health Clinic</title>
-  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  <title>Contact | MediNova Health Clinic</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" type="image/x-icon" />
   <link rel="stylesheet" href="style.css" />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
 <body>
 
-<!-- ===== NAVBAR ===== -->
-<header class="navbar">
+<!-- NAVBAR -->
+<header class="navbar" id="navbar">
   <a href="index.html" class="logo">
-    <img src="https://cdn-icons-png.flaticon.com/512/2966/2966486.png" alt="LifeCare Logo" />
+    <img src="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" alt="MediNova" />
+    Medi<span>Nova</span>
   </a>
-
-  <div class="menu-toggle" id="mobile-menu">
-    <i class="fas fa-bars"></i>
-  </div>
-
-  <nav class="navbar-items" id="navbar">
+  <div class="menu-toggle" id="mobile-menu"><i class="fas fa-bars"></i></div>
+  <nav class="navbar-items" id="nav-menu">
     <div class="close-btn" id="close-menu"><i class="fas fa-times"></i></div>
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -33,117 +25,163 @@
       <li><a href="about.html">About</a></li>
       <li><a href="departments.html">Departments</a></li>
       <li><a href="contact.html" class="active">Contact</a></li>
+      <li><a href="contact.html" class="nav-cta">Book Appointment</a></li>
     </ul>
   </nav>
 </header>
 
-<!-- ===== HERO SECTION ===== -->
-<section class="contact-hero">
-  <div class="overlay"></div>
-  <div class="hero-text">
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="ph-bg" style="background-image: url('https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=1600&q=80');"></div>
+  <div class="ph-overlay"></div>
+  <div class="ph-content">
+    <div class="section-label" style="justify-content:center;">Get In Touch</div>
     <h1>Contact Us</h1>
-    <p>We’re here to help. Reach out to LifeCare Health Clinic anytime.</p>
-  </div>
-</section>
-
-<!-- ===== CONTACT INFO ===== -->
-<section class="contact-info">
-  <div class="container">
-    <div class="info-box">
-      <i class="fas fa-map-marker-alt"></i>
-      <h3>Our Address</h3>
-      <p>LifeCare Health Clinic,<br> Garden Town, Block 4, Lahore</p>
-    </div>
-
-    <div class="info-box">
-      <i class="fas fa-phone-alt"></i>
-      <h3>Call Us</h3>
-      <p>+91 98765 43210<br> +92 321 6543210</p>
-    </div>
-
-    <div class="info-box">
-      <i class="fas fa-envelope"></i>
-      <h3>Email Us</h3>
-      <p>info@lifecare.com<br> support@lifecare.com</p>
-    </div>
-
-    <div class="info-box">
-      <i class="fas fa-clock"></i>
-      <h3>Working Hours</h3>
-      <p>Mon - Sat: 9 AM - 8 PM<br> Sun: Emergency Only</p>
+    <p>We're here for you — reach out to MediNova any time, for any reason.</p>
+    <div class="ph-breadcrumb">
+      <a href="index.html">Home</a>
+      <span>/</span>
+      <span style="color:var(--white);">Contact</span>
     </div>
   </div>
 </section>
 
-<!-- ===== CONTACT FORM ===== -->
-<section class="contact-form">
-  <div class="form-container">
-    <h2>Contact</h2>
-    <p>Have a question or need to book an appointment? Send us a message and our team will respond promptly.</p>
-
-    <form id="contactForm">
-      <div class="input-row">
-        <input type="text" id="name" name="name" placeholder="Full Name" required />
-        <input type="email" id="email" name="email" placeholder="Email Address" required />
+<!-- CONTACT SECTION -->
+<section class="contact-section reveal">
+  <div class="contact-inner">
+    <!-- LEFT: Info -->
+    <div class="contact-info-col">
+      <div class="section-label">Reach Out</div>
+      <h2>How Can We<br><span style="color:var(--emerald);">Help You?</span></h2>
+      <p>Have a question, need to book an appointment, or want to speak with a specialist? We're always available.</p>
+      <div class="contact-cards">
+        <div class="contact-card">
+          <div class="cc-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div class="cc-body">
+            <h4>Our Address</h4>
+            <p>MediNova Health Clinic<br>Garden Town, Block 4, Lahore</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="cc-icon"><i class="fas fa-phone-alt"></i></div>
+          <div class="cc-body">
+            <h4>Call Us</h4>
+            <p>+91 98765 43210<br>+92 321 6543210</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="cc-icon"><i class="fas fa-envelope"></i></div>
+          <div class="cc-body">
+            <h4>Email Us</h4>
+            <p>info@medinova.com<br>support@medinova.com</p>
+          </div>
+        </div>
+        <div class="contact-card">
+          <div class="cc-icon"><i class="fas fa-clock"></i></div>
+          <div class="cc-body">
+            <h4>Working Hours</h4>
+            <p>Mon – Sat: 9 AM – 8 PM<br>Sunday: Emergency Only</p>
+          </div>
+        </div>
       </div>
-      <div class="input-row">
-        <input type="number" id="phone" name="phone" placeholder="Phone Number" required />
-        <input type="text" id="subject" name="subject" placeholder="Subject" required />
+    </div>
+
+    <!-- RIGHT: Form -->
+    <div class="contact-form-col">
+      <h3>Send Us a Message</h3>
+      <p>Fill in the form below and our team will respond within 24 hours.</p>
+      <div class="cf-row">
+        <div class="cf-group">
+          <label>Full Name</label>
+          <input type="text" id="cf-name" placeholder="John Doe" />
+        </div>
+        <div class="cf-group">
+          <label>Email Address</label>
+          <input type="email" id="cf-email" placeholder="you@email.com" />
+        </div>
       </div>
-      <textarea id="message" name="message" rows="6" placeholder="Your Message..." required></textarea>
-      <button onclick="fun()" class="btn-submit">Send Message</button>
-    </form>
+      <div class="cf-row">
+        <div class="cf-group">
+          <label>Phone Number</label>
+          <input type="number" id="cf-phone" placeholder="+91 00000 00000" />
+        </div>
+        <div class="cf-group">
+          <label>Subject</label>
+          <input type="text" id="cf-subject" placeholder="Appointment inquiry..." />
+        </div>
+      </div>
+      <div class="cf-group">
+        <label>Your Message</label>
+        <textarea id="cf-message" rows="5" placeholder="Tell us how we can help you..."></textarea>
+      </div>
+      <button class="btn-send" onclick="sendContactForm()"><i class="fas fa-paper-plane"></i> &nbsp;Send Message</button>
+    </div>
   </div>
 </section>
 
-<!-- ===== MAP SECTION ===== -->
-<section class="map">
+<!-- MAP -->
+<section class="map-section reveal">
   <h2>Find Us on the Map</h2>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.12901831448!2d78.0911840740768!3d9.923211474353275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cf6e00eb596f%3A0x25041832bbd0565!2sGanesh%20Priya%20Hospital!5e0!3m2!1sen!2sus!4v1761491049049!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  <div class="map-wrapper">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3930.12901831448!2d78.0911840740768!3d9.923211474353275!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b00cf6e00eb596f%3A0x25041832bbd0565!2sGanesh%20Priya%20Hospital!5e0!3m2!1sen!2sus!4v1761491049049!5m2!1sen!2sus"
+      width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy">
+    </iframe>
+  </div>
 </section>
 
-<!-- ===== FOOTER ===== -->
+<!-- FOOTER -->
 <footer>
-  <div class="footer-sec">
-    <div class="sec">
-      <div class="f_box">
-        <h2>Contact</h2>
-        <p>Email: info@lifecare.com</p>
-        <p>Phone: +91 98765 43210</p>
-        <p>Facebook | Instagram | Twitter</p>
-      </div>
-      <div class="f_box">
-        <h2>Departments</h2>
-        <p>Radiology</p>
-        <p>Pharmacology</p>
-        <p>Pathology</p>
-        <p>Anatomy</p>
+  <div class="footer-main">
+    <div class="footer-brand">
+      <a href="index.html" class="logo">
+        <img src="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" alt="Logo" />
+        Medi<span>Nova</span>
+      </a>
+      <p>Advanced, compassionate healthcare delivered by world-class specialists.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
       </div>
     </div>
-
-    <div class="sec">
-      <div class="f_box">
-        <h2>Address</h2>
-        <p>LifeCare Health Clinic, Garden Town, Block 4, Lahore</p>
-        <p>
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-snapchat"></i>
-          <i class="fab fa-whatsapp"></i>
-        </p>
-      </div>
-      <div class="f_box">
-        <h2>Facilities</h2>
-        <p>24/7 Emergency</p>
-        <p>Qualified Doctors</p>
-        <p>Modern Equipment</p>
-      </div>
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="departments.html">Departments</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Departments</h4>
+      <ul>
+        <li><a href="departments.html">Cardiology</a></li>
+        <li><a href="departments.html">Radiology</a></li>
+        <li><a href="departments.html">Pediatrics</a></li>
+        <li><a href="departments.html">Neurology</a></li>
+        <li><a href="departments.html">Orthopedics</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:info@medinova.com">info@medinova.com</a></li>
+        <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+        <li><a href="#">Garden Town, Block 4</a></li>
+        <li><a href="#">Mon–Sat: 9 AM – 8 PM</a></li>
+        <li><a href="#">Sunday: Emergency Only</a></li>
+      </ul>
     </div>
   </div>
-  <p class="para">© 2025 LifeCare Health Clinic. All Rights Reserved.</p>
+  <div class="footer-bottom">
+    © 2025 <span>MediNova Health Clinic</span>. All Rights Reserved.
+  </div>
 </footer>
 
-<!-- Link to JS -->
 <script src="index.js"></script>
-
 </body>
 </html>

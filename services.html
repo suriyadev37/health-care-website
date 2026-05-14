@@ -3,175 +3,194 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Our Services | LifeCare Health Clinic</title>
-  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  <title>Services | MediNova Health Clinic</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" type="image/x-icon" />
   <link rel="stylesheet" href="style.css" />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
-
 <body>
-<!-- ===== NAVBAR ===== -->
-<header class="navbar">
+
+<!-- NAVBAR -->
+<header class="navbar" id="navbar">
   <a href="index.html" class="logo">
-    <img src="https://cdn-icons-png.flaticon.com/512/2966/2966486.png" alt="LifeCare Logo" />
+    <img src="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" alt="MediNova" />
+    Medi<span>Nova</span>
   </a>
-
-  <!-- Hamburger icon (mobile only) -->
-  <div class="menu-toggle" id="mobile-menu">
-    <i class="fas fa-bars"></i>
-  </div>
-
-  <!-- Navigation -->
-  <nav class="navbar-items" id="navbar">
+  <div class="menu-toggle" id="mobile-menu"><i class="fas fa-bars"></i></div>
+  <nav class="navbar-items" id="nav-menu">
     <div class="close-btn" id="close-menu"><i class="fas fa-times"></i></div>
     <ul>
-      <li><a href="index.html" >Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="services.html" class="active">Services</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="departments.html">Departments</a></li>
       <li><a href="contact.html">Contact</a></li>
-      <div class="nav-buttons">
-        <!-- <a href="login.html" class="btn-login">Login</a> -->
-      </div>
+      <li><a href="contact.html" class="nav-cta">Book Appointment</a></li>
     </ul>
   </nav>
 </header>
 
-<!-- ===== HERO BANNER ===== -->
-<section class="service-hero">
-  <div class="overlay"></div>
-  <div class="hero-text">
-    <h1>Comprehensive Health Services</h1>
-    <p>Delivering trusted, patient-focused care through expertise and innovation.</p>
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="ph-bg" style="background-image: url('https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=1600&q=80');"></div>
+  <div class="ph-overlay"></div>
+  <div class="ph-content">
+    <div class="section-label" style="justify-content:center;">What We Offer</div>
+    <h1>Our Services</h1>
+    <p>Delivering trusted, patient-focused care through expertise, compassion, and innovation.</p>
+    <div class="ph-breadcrumb">
+      <a href="index.html">Home</a>
+      <span>/</span>
+      <span style="color:var(--white);">Services</span>
+    </div>
   </div>
 </section>
 
-<!-- ===== MAIN SERVICES SECTION ===== -->
-<section class="service-list">
-  <h1 class="heading">Our Medical Services</h1>
-  <div class="service-grid">
-    
-    <!-- Service Box -->
-    <div class="service-card">
-      <img src="img/dentist.jpg" alt="Dentistry Service">
-      <div class="content">
-        <i class="fas fa-tooth"></i>
-        <h2>Dentistry</h2>
+<!-- SERVICES GRID -->
+<div class="services-section" style="padding-bottom:60px;">
+  <div class="section-header reveal">
+    <div class="section-label">Comprehensive Care</div>
+    <h2 class="section-title">Our Medical <span>Services</span></h2>
+    <p class="section-sub">From routine checkups to advanced procedures — we cover every aspect of your health needs.</p>
+  </div>
+  <div class="services-grid">
+    <div class="service-card reveal">
+      <img class="service-img" src="https://images.unsplash.com/photo-1606811971618-4486d14f3f99?w=600&q=80" alt="Dentistry" />
+      <div class="service-body">
+        <div class="svc-icon"><i class="fas fa-tooth"></i></div>
+        <h3>Dentistry</h3>
         <p>Our dental team offers full-spectrum oral care — from hygiene cleanings and fillings to crowns, whitening, and cosmetic restorations using the latest equipment.</p>
       </div>
     </div>
-
-    <div class="service-card">
-      <img src="img/patient.jpg" alt="Nursing">
-      <div class="content">
-        <i class="fas fa-user-nurse"></i>
-        <h2>Patient Care & Support</h2>
-        <p>We provide comprehensive care services designed to ensure comfort, safety, and peace of mind. From daily assistance to emotional support, our team is dedicated to enhancing the overall healing experience.</p>
+    <div class="service-card reveal">
+      <img class="service-img" src="https://images.unsplash.com/photo-1527613426441-4da17471b66d?w=600&q=80" alt="Patient Care" />
+      <div class="service-body">
+        <div class="svc-icon"><i class="fas fa-user-nurse"></i></div>
+        <h3>Patient Care & Support</h3>
+        <p>Comprehensive care services designed to ensure comfort, safety, and peace of mind — from daily assistance to emotional support and holistic healing.</p>
       </div>
     </div>
-
-    <div class="service-card">
-      <img src="img/medicin.webp" alt="Medicine">
-      <div class="content">
-        <i class="fas fa-tablets"></i>
-        <h2>General Medicine</h2>
+    <div class="service-card reveal">
+      <img class="service-img" src="https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=600&q=80" alt="General Medicine" />
+      <div class="service-body">
+        <div class="svc-icon"><i class="fas fa-tablets"></i></div>
+        <h3>General Medicine</h3>
         <p>From acute illnesses to chronic disease management, our physicians deliver precise diagnoses and evidence-based treatments for all age groups.</p>
       </div>
     </div>
-
-    <div class="service-card">
-      <img src="img/pharmacy.jpg" alt="Pharmacy">
-      <div class="content">
-        <i class="fas fa-prescription-bottle-alt"></i>
-        <h2>Pharmacy</h2>
-        <p>Our on-site pharmacy offers fast dispensing, medication counseling, and home delivery options for your convenience and safety.</p>
+    <div class="service-card reveal">
+      <img class="service-img" src="https://images.unsplash.com/photo-1587854692152-cbe660dbde88?w=600&q=80" alt="Pharmacy" />
+      <div class="service-body">
+        <div class="svc-icon"><i class="fas fa-prescription-bottle-alt"></i></div>
+        <h3>In-House Pharmacy</h3>
+        <p>Our on-site pharmacy offers fast dispensing, medication counseling, and convenient home delivery options for your safety and comfort.</p>
       </div>
     </div>
-
-    <div class="service-card">
-      <img src="img/radio.webp" alt="Radiology">
-      <div class="content">
-        <i class="fas fa-x-ray"></i>
-        <h2>Radiology & Imaging</h2>
-        <p>We provide digital X-rays, ultrasounds, CT, and MRI scans interpreted by experienced radiologists to ensure accurate diagnosis and follow-up.</p>
+    <div class="service-card reveal">
+      <img class="service-img" src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&q=80" alt="Radiology" />
+      <div class="service-body">
+        <div class="svc-icon"><i class="fas fa-x-ray"></i></div>
+        <h3>Radiology & Imaging</h3>
+        <p>Digital X-rays, ultrasounds, CT, and MRI scans interpreted by experienced radiologists to ensure accurate diagnosis and follow-up.</p>
       </div>
     </div>
-
-    <div class="service-card">
-      <img src="img/eye.jpg" alt="Optometry">
-      <div class="content">
-        <i class="fas fa-eye"></i>
-        <h2>Optometry</h2>
+    <div class="service-card reveal">
+      <img class="service-img" src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=600&q=80" alt="Optometry" />
+      <div class="service-body">
+        <div class="svc-icon"><i class="fas fa-eye"></i></div>
+        <h3>Optometry</h3>
         <p>Comprehensive eye examinations, lens fittings, and advanced vision correction consultations tailored to your individual needs.</p>
       </div>
     </div>
   </div>
+</div>
+
+<!-- SPECIAL CARE -->
+<section class="special-care reveal">
+  <div class="care-inner">
+    <div class="care-text">
+      <div class="section-label">Advanced Programs</div>
+      <h2 class="section-title">Specialized <span>Care Programs</span></h2>
+      <p class="section-sub">Targeted health programs designed for complex conditions and long-term wellness management.</p>
+      <ul class="care-list">
+        <li><i class="fas fa-heartbeat"></i> Cardiology & Heart Health Program</li>
+        <li><i class="fas fa-brain"></i> Neurology & Mental Health Support</li>
+        <li><i class="fas fa-baby"></i> Maternal & Child Care Unit</li>
+        <li><i class="fas fa-stethoscope"></i> Preventive Health Screening Packages</li>
+      </ul>
+      <div style="margin-top:36px;">
+        <a href="contact.html" class="btn-primary">Book a Consultation <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+    <div class="care-image">
+      <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&q=80" alt="Special Care" />
+    </div>
+  </div>
 </section>
 
-<!-- ===== ADDITIONAL CARE SECTION ===== -->
-<section class="special-care">
-  <div class="care-text">
-    <h1>Specialized Care Programs</h1>
-    <p>LifeCare Clinic provides specialized health programs designed for your overall well-being.</p>
-    <ul>
-      <li><i class="fas fa-heartbeat"></i> Cardiology & Heart Health</li>
-      <li><i class="fas fa-brain"></i> Neurology & Mental Health Support</li>
-      <li><i class="fas fa-baby"></i> Maternal & Child Care</li>
-      <li><i class="fas fa-stethoscope"></i> Preventive Health Checkups</li>
-    </ul>
-  </div>
-  <div class="care-image">
-    <img src="img/care.jpg" alt="Special Care">
+<!-- CTA BAND -->
+<section class="cta-band reveal">
+  <div class="section-label" style="justify-content:center;">Ready to Start?</div>
+  <h2>Your Health Deserves the Best</h2>
+  <p>Schedule an appointment with one of our top specialists today and take the first step towards better health.</p>
+  <div class="cta-buttons">
+    <a href="contact.html" class="btn-primary"><i class="fas fa-calendar-check"></i> Book Appointment</a>
+    <a href="departments.html" class="btn-outline">Our Departments</a>
   </div>
 </section>
 
-<!-- ===== FOOTER ===== -->
+<!-- FOOTER -->
 <footer>
-  <div class="footer-sec">
-    <div class="sec">
-      <div class="f_box">
-        <h2>Contact</h2>
-        <p>Email: info@lifecare.com</p>
-        <p>Phone: +91 98765 43210</p>
-        <p>Facebook | Instagram | Twitter</p>
-      </div>
-      <div class="f_box">
-        <h2>Departments</h2>
-        <p>Radiology</p>
-        <p>Pharmacology</p>
-        <p>Pathology</p>
-        <p>Anatomy</p>
+  <div class="footer-main">
+    <div class="footer-brand">
+      <a href="index.html" class="logo">
+        <img src="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" alt="Logo" />
+        Medi<span>Nova</span>
+      </a>
+      <p>Advanced, compassionate healthcare delivered by world-class specialists.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
       </div>
     </div>
-
-    <div class="sec">
-      <div class="f_box">
-        <h2>Address</h2>
-        <p>LifeCare Health Clinic, Garden Town, Block 4, Lahore</p>
-        <p>
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-snapchat"></i>
-          <i class="fab fa-whatsapp"></i>
-        </p>
-      </div>
-      <div class="f_box">
-        <h2>Facilities</h2>
-        <p>24/7 Emergency</p>
-        <p>Qualified Doctors</p>
-        <p>Modern Equipment</p>
-      </div>
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="departments.html">Departments</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Departments</h4>
+      <ul>
+        <li><a href="departments.html">Cardiology</a></li>
+        <li><a href="departments.html">Radiology</a></li>
+        <li><a href="departments.html">Pediatrics</a></li>
+        <li><a href="departments.html">Neurology</a></li>
+        <li><a href="departments.html">Orthopedics</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:info@medinova.com">info@medinova.com</a></li>
+        <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+        <li><a href="#">Garden Town, Block 4</a></li>
+        <li><a href="#">Mon–Sat: 9 AM – 8 PM</a></li>
+        <li><a href="#">Sunday: Emergency Only</a></li>
+      </ul>
     </div>
   </div>
-  <p class="para">© 2025 LifeCare Health Clinic. All Rights Reserved.</p>
+  <div class="footer-bottom">
+    © 2025 <span>MediNova Health Clinic</span>. All Rights Reserved.
+  </div>
 </footer>
 
 <script src="index.js"></script>
-
 </body>
 </html>

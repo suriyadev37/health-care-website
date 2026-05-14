@@ -3,196 +3,199 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Departments | LifeCare Health Clinic</title>
-  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  <title>Departments | MediNova Health Clinic</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" type="image/x-icon" />
   <link rel="stylesheet" href="style.css" />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
-
 <body>
 
-<!-- ===== NAVBAR ===== -->
-<header class="navbar">
+<!-- NAVBAR -->
+<header class="navbar" id="navbar">
   <a href="index.html" class="logo">
-    <img src="https://cdn-icons-png.flaticon.com/512/2966/2966486.png" alt="LifeCare Logo" />
+    <img src="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" alt="MediNova" />
+    Medi<span>Nova</span>
   </a>
-
-  <div class="menu-toggle" id="mobile-menu">
-    <i class="fas fa-bars"></i>
-  </div>
-
-  <nav class="navbar-items" id="navbar">
+  <div class="menu-toggle" id="mobile-menu"><i class="fas fa-bars"></i></div>
+  <nav class="navbar-items" id="nav-menu">
     <div class="close-btn" id="close-menu"><i class="fas fa-times"></i></div>
     <ul>
-      <li><a href="index.html" >Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="services.html">Services</a></li>
       <li><a href="about.html">About</a></li>
       <li><a href="departments.html" class="active">Departments</a></li>
       <li><a href="contact.html">Contact</a></li>
-      <div class="nav-buttons">
-        <!-- <a href="login.html" class="btn-login">Login</a> -->
-      </div>
+      <li><a href="contact.html" class="nav-cta">Book Appointment</a></li>
     </ul>
   </nav>
 </header>
 
-<!-- ===== HERO SECTION ===== -->
-<section class="dept-hero">
-  <div class="overlay"></div>
-  <div class="hero-text">
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="ph-bg" style="background-image: url('https://images.unsplash.com/photo-1559757175-5700dde675bc?w=1600&q=80');"></div>
+  <div class="ph-overlay"></div>
+  <div class="ph-content">
+    <div class="section-label" style="justify-content:center;">Specialized Units</div>
     <h1>Our Departments</h1>
     <p>Comprehensive care under one roof — excellence across every specialty.</p>
+    <div class="ph-breadcrumb">
+      <a href="index.html">Home</a>
+      <span>/</span>
+      <span style="color:var(--white);">Departments</span>
+    </div>
   </div>
 </section>
 
-<!-- ===== DEPARTMENT INTRO ===== -->
-<section class="dept-intro">
-  <div class="intro-content">
-    <h2>Specialized Medical Excellence</h2>
-    <p>
-      LifeCare Health Clinic is home to an extensive network of specialized departments designed to offer
-      advanced, patient-focused healthcare. From cardiology to radiology, each department is staffed by
-      world-class professionals equipped with modern diagnostic tools and treatment facilities.
+<!-- DEPT INTRO -->
+<section class="dept-intro-section reveal">
+  <div class="dept-intro-inner">
+    <div class="section-label" style="justify-content:center;">Specialized Medical Excellence</div>
+    <h2 class="section-title" style="text-align:center;">World-Class <span>Specialties</span></h2>
+    <p class="section-sub" style="margin:0 auto 0; text-align:center;">
+      MediNova is home to an extensive network of specialized departments designed to offer advanced, patient-focused healthcare. Each department is staffed by internationally trained professionals equipped with modern diagnostic tools.
     </p>
   </div>
 </section>
 
-<!-- ===== DEPARTMENTS GRID ===== -->
-<section class="departments">
-  <h2 class="heading">Our Medical Departments</h2>
-  <div class="dept-grid">
-
-    <div class="dept-card">
-      <img src="img/Cardiology.jpg" alt="Cardiology Department">
-      <div class="dept-info">
-        <i class="fas fa-heartbeat"></i>
-        <h3>Cardiology</h3>
-        <p>Our Cardiology unit provides advanced cardiac care, including angioplasty, echocardiograms, and preventive heart checkups.</p>
+<!-- DEPARTMENTS GRID -->
+<section class="dept-section">
+  <div class="dept-inner">
+    <div class="section-header reveal">
+      <div class="section-label">Medical Units</div>
+      <h2 class="section-title">Browse Our <span>Departments</span></h2>
+    </div>
+    <div class="dept-grid">
+      <div class="dept-card reveal">
+        <img src="https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=600&q=80" alt="Cardiology" />
+        <div class="dept-info">
+          <i class="fas fa-heartbeat"></i>
+          <h3>Cardiology</h3>
+          <p>Advanced cardiac care including angioplasty, echocardiograms, and preventive heart checkups by top cardiologists.</p>
+        </div>
+      </div>
+      <div class="dept-card reveal">
+        <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=600&q=80" alt="Radiology" />
+        <div class="dept-info">
+          <i class="fas fa-x-ray"></i>
+          <h3>Radiology</h3>
+          <p>State-of-the-art MRI, CT scans, ultrasound, and digital X-ray imaging for precise diagnosis and treatment planning.</p>
+        </div>
+      </div>
+      <div class="dept-card reveal">
+        <img src="https://images.unsplash.com/photo-1531983412531-1f49a365ffed?w=600&q=80" alt="Pediatrics" />
+        <div class="dept-info">
+          <i class="fas fa-baby"></i>
+          <h3>Pediatrics</h3>
+          <p>Comprehensive healthcare for infants, children, and adolescents — focusing on growth, wellness, and preventive care.</p>
+        </div>
+      </div>
+      <div class="dept-card reveal">
+        <img src="https://images.unsplash.com/photo-1530026186672-2cd00ffc50fe?w=600&q=80" alt="Orthopedics" />
+        <div class="dept-info">
+          <i class="fas fa-bone"></i>
+          <h3>Orthopedics</h3>
+          <p>Treatment for bone and joint disorders, fractures, sports injuries, and post-surgical rehabilitation.</p>
+        </div>
+      </div>
+      <div class="dept-card reveal">
+        <img src="https://images.unsplash.com/photo-1576671081837-49000212a370?w=600&q=80" alt="Neurology" />
+        <div class="dept-info">
+          <i class="fas fa-brain"></i>
+          <h3>Neurology</h3>
+          <p>Diagnosis and treatment of brain, spinal cord, and nervous system disorders by highly experienced neurologists.</p>
+        </div>
+      </div>
+      <div class="dept-card reveal">
+        <img src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=600&q=80" alt="Gynecology" />
+        <div class="dept-info">
+          <i class="fas fa-female"></i>
+          <h3>Gynecology</h3>
+          <p>Comprehensive women's health services — prenatal care, fertility treatments, and gynecological surgeries.</p>
+        </div>
+      </div>
+      <div class="dept-card reveal">
+        <img src="https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=600&q=80" alt="Pathology" />
+        <div class="dept-info">
+          <i class="fas fa-vials"></i>
+          <h3>Pathology</h3>
+          <p>Advanced laboratory and diagnostic testing ensuring accurate results with quick turnaround times.</p>
+        </div>
+      </div>
+      <div class="dept-card reveal">
+        <img src="https://images.unsplash.com/photo-1559757175-5700dde675bc?w=600&q=80" alt="Dermatology" />
+        <div class="dept-info">
+          <i class="fas fa-allergies"></i>
+          <h3>Dermatology</h3>
+          <p>Expert care for skin, hair, and nail conditions using modern therapies and cosmetic dermatology solutions.</p>
+        </div>
       </div>
     </div>
-
-    <div class="dept-card">
-      <img src="img/radio.webp" alt="Radiology Department">
-      <div class="dept-info">
-        <i class="fas fa-x-ray"></i>
-        <h3>Radiology</h3>
-        <p>State-of-the-art MRI, CT scans, ultrasound, and digital X-ray imaging for precise diagnosis and treatment planning.</p>
-      </div>
-    </div>
-
-    <div class="dept-card">
-      <img src="img/Pediatrics.jpg" alt="Pediatrics Department">
-      <div class="dept-info">
-        <i class="fas fa-baby"></i>
-        <h3>Pediatrics</h3>
-        <p>Comprehensive healthcare for infants, children, and adolescents, focusing on growth, wellness, and preventive care.</p>
-      </div>
-    </div>
-
-    <div class="dept-card">
-      <img src="img/Orthopedics.jpg" alt="Orthopedic Department">
-      <div class="dept-info">
-        <i class="fas fa-bone"></i>
-        <h3>Orthopedics</h3>
-        <p>Providing treatment for bone and joint disorders, fractures, sports injuries, and post-surgical rehabilitation.</p>
-      </div>
-    </div>
-
-    <div class="dept-card">
-      <img src="img/Neurology.jpg" alt="Neurology Department">
-      <div class="dept-info">
-        <i class="fas fa-brain"></i>
-        <h3>Neurology</h3>
-        <p>Diagnosis and treatment of brain, spinal cord, and nervous system disorders by highly experienced neurologists.</p>
-      </div>
-    </div>
-
-    <div class="dept-card">
-      <img src="img/Gynecology.jpg" alt="Gynecology Department">
-      <div class="dept-info">
-        <i class="fas fa-female"></i>
-        <h3>Gynecology</h3>
-        <p>Comprehensive women’s health services, prenatal care, fertility treatments, and gynecological surgeries.</p>
-      </div>
-    </div>
-
-    <div class="dept-card">
-      <img src="img/Pathology.jpg" alt="Pathology Department">
-      <div class="dept-info">
-        <i class="fas fa-vials"></i>
-        <h3>Pathology</h3>
-        <p>Advanced laboratory and diagnostic testing ensuring accurate results and quick turnaround times.</p>
-      </div>
-    </div>
-
-    <div class="dept-card">
-      <img src="img/Dermatology.webp" alt="Dermatology Department">
-      <div class="dept-info">
-        <i class="fas fa-allergies"></i>
-        <h3>Dermatology</h3>
-        <p>Expert care for skin, hair, and nail conditions using modern therapies and cosmetic dermatology solutions.</p>
-      </div>
-    </div>
-
   </div>
 </section>
 
-<!-- ===== APPOINTMENT SECTION ===== -->
-<section class="appointment">
-  <div class="appointment-content">
-    <h2>Book an Appointment</h2>
-    <p>Need to consult a specialist? Schedule an appointment with one of our departments today.</p>
-    <a href="index.html#contact" class="btn-appointment">Book Appointment</a>
+<!-- CTA BAND -->
+<section class="cta-band reveal">
+  <div class="section-label" style="justify-content:center;">Ready to Start?</div>
+  <h2>Need to Consult a Specialist?</h2>
+  <p>Schedule an appointment with one of our departments today and get the expert care you deserve.</p>
+  <div class="cta-buttons">
+    <a href="contact.html" class="btn-primary"><i class="fas fa-calendar-check"></i> Book Appointment</a>
+    <a href="services.html" class="btn-outline">View Our Services</a>
   </div>
 </section>
 
-<!-- ===== FOOTER ===== -->
+<!-- FOOTER -->
 <footer>
-  <div class="footer-sec">
-    <div class="sec">
-      <div class="f_box">
-        <h2>Contact</h2>
-        <p>Email: info@lifecare.com</p>
-        <p>Phone: +91 98765 43210</p>
-        <p>Facebook | Instagram | Twitter</p>
-      </div>
-      <div class="f_box">
-        <h2>Departments</h2>
-        <p>Radiology</p>
-        <p>Pharmacology</p>
-        <p>Pathology</p>
-        <p>Anatomy</p>
+  <div class="footer-main">
+    <div class="footer-brand">
+      <a href="index.html" class="logo">
+        <img src="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" alt="Logo" />
+        Medi<span>Nova</span>
+      </a>
+      <p>Advanced, compassionate healthcare delivered by world-class specialists.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
       </div>
     </div>
-
-    <div class="sec">
-      <div class="f_box">
-        <h2>Address</h2>
-        <p>LifeCare Health Clinic, Garden Town, Block 4, Lahore</p>
-        <p>
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-snapchat"></i>
-          <i class="fab fa-whatsapp"></i>
-        </p>
-      </div>
-      <div class="f_box">
-        <h2>Facilities</h2>
-        <p>24/7 Emergency</p>
-        <p>Qualified Doctors</p>
-        <p>Modern Equipment</p>
-      </div>
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="departments.html">Departments</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Departments</h4>
+      <ul>
+        <li><a href="departments.html">Cardiology</a></li>
+        <li><a href="departments.html">Radiology</a></li>
+        <li><a href="departments.html">Pediatrics</a></li>
+        <li><a href="departments.html">Neurology</a></li>
+        <li><a href="departments.html">Orthopedics</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:info@medinova.com">info@medinova.com</a></li>
+        <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+        <li><a href="#">Garden Town, Block 4</a></li>
+        <li><a href="#">Mon–Sat: 9 AM – 8 PM</a></li>
+        <li><a href="#">Sunday: Emergency Only</a></li>
+      </ul>
     </div>
   </div>
-  <p class="para">© 2025 LifeCare Health Clinic. All Rights Reserved.</p>
+  <div class="footer-bottom">
+    © 2025 <span>MediNova Health Clinic</span>. All Rights Reserved.
+  </div>
 </footer>
 
 <script src="index.js"></script>
-
 </body>
 </html>

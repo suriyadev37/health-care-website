@@ -3,196 +3,252 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>About Us | LifeCare Health Clinic</title>
-  <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+  <title>About Us | MediNova Health Clinic</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" type="image/x-icon" />
   <link rel="stylesheet" href="style.css" />
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
-    integrity="sha512-PgQMlq+nqFLV4ylk1gwUOgm6CtIIXkKwaIHp/PAIWHzig/lKZSEGKEysh0TCVbHJXCLN7WetD8TFecIky75ZfQ=="
-    crossorigin="anonymous"
-    referrerpolicy="no-referrer"
-  />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 </head>
-
 <body>
-<!-- ===== NAVBAR ===== -->
-<header class="navbar">
+
+<!-- NAVBAR -->
+<header class="navbar" id="navbar">
   <a href="index.html" class="logo">
-    <img src="https://cdn-icons-png.flaticon.com/512/2966/2966486.png" alt="LifeCare Logo" />
+    <img src="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" alt="MediNova" />
+    Medi<span>Nova</span>
   </a>
-
-  <div class="menu-toggle" id="mobile-menu">
-    <i class="fas fa-bars"></i>
-  </div>
-
-  <nav class="navbar-items" id="navbar">
+  <div class="menu-toggle" id="mobile-menu"><i class="fas fa-bars"></i></div>
+  <nav class="navbar-items" id="nav-menu">
     <div class="close-btn" id="close-menu"><i class="fas fa-times"></i></div>
     <ul>
-      <li><a href="index.html" >Home</a></li>
+      <li><a href="index.html">Home</a></li>
       <li><a href="services.html">Services</a></li>
       <li><a href="about.html" class="active">About</a></li>
-      <li><a href="departments.html" >Departments</a></li>
+      <li><a href="departments.html">Departments</a></li>
       <li><a href="contact.html">Contact</a></li>
-      <div class="nav-buttons">
-        <!-- <a href="login.html" class="btn-login">Login</a> -->
-      </div>
+      <li><a href="contact.html" class="nav-cta">Book Appointment</a></li>
     </ul>
   </nav>
 </header>
 
-<!-- ===== HERO SECTION ===== -->
-<section class="about-hero">
-  <div class="overlay"></div>
-  <div class="hero-text">
-    <h1>About LifeCare Health Clinic</h1>
-    <p>Your trusted partner in compassionate, innovative healthcare.</p>
-  </div>
-</section>
-
-<!-- ===== INTRODUCTION ===== -->
-<section class="intro">
-  <div class="intro-text">
-    <h2>Our Mission</h2>
-    <p>
-      LifeCare Health Clinic is dedicated to providing exceptional healthcare
-      built on compassion, trust, and innovation. We believe that true wellness
-      comes from personalized care — addressing both the body and mind of every patient.
-    </p>
-  </div>
-  <div class="intro-image">
-    <img  src="img/mission.jpg" alt="Mission Image" />
-  </div>
-</section>
-
-<!-- ===== STORY SECTION ===== -->
-<section class="story">
-  <div class="story-content">
-    <h2>Our Story</h2>
-    <p>
-      Founded in 2012, LifeCare Health Clinic began as a small community practice with one goal:
-      to redefine the healthcare experience by making it more accessible, transparent, and patient-focused.
-      Over the past decade, our dedicated team has grown into a multi-disciplinary facility offering
-      advanced medical treatments, digital diagnostics, and preventive care for families across the region.
-    </p>
-    <p>
-      Today, LifeCare stands as a beacon of excellence — combining medical expertise with
-      cutting-edge technology to deliver comprehensive healthcare you can rely on.
-    </p>
-  </div>
-  <div class="story-image">
-    <img src="img/story.jpg" alt="Our Story" />
-  </div>
-</section>
-
-<!-- ===== VALUES SECTION ===== -->
-<section class="values">
-  <h2 class="heading">Our Core Values</h2>
-  <div class="values-grid">
-    <div class="value-box">
-      <i class="fas fa-hand-holding-heart"></i>
-      <h3>Compassion</h3>
-      <p>We treat every patient like family, offering care rooted in empathy and understanding.</p>
-    </div>
-    <div class="value-box">
-      <i class="fas fa-user-md"></i>
-      <h3>Expertise</h3>
-      <p>Our certified doctors and specialists ensure world-class medical services across all departments.</p>
-    </div>
-    <div class="value-box">
-      <i class="fas fa-laptop-medical"></i>
-      <h3>Innovation</h3>
-      <p>We use state-of-the-art diagnostic and treatment technologies to deliver precise results.</p>
-    </div>
-    <div class="value-box">
-      <i class="fas fa-hands-helping"></i>
-      <h3>Integrity</h3>
-      <p>We uphold transparency and ethics in every aspect of our practice, ensuring your trust and safety.</p>
+<!-- PAGE HERO -->
+<section class="page-hero">
+  <div class="ph-bg" style="background-image: url('https://images.unsplash.com/photo-1576765607924-b3e0c3e6a72e?w=1600&q=80');"></div>
+  <div class="ph-overlay"></div>
+  <div class="ph-content">
+    <div class="section-label" style="justify-content:center;">Our Story</div>
+    <h1>About MediNova</h1>
+    <p>Your trusted partner in compassionate, innovative, and patient-first healthcare.</p>
+    <div class="ph-breadcrumb">
+      <a href="index.html">Home</a>
+      <span>/</span>
+      <span style="color:var(--white);">About</span>
     </div>
   </div>
 </section>
 
-<!-- ===== TEAM SECTION ===== -->
-<section class="team">
-  <h2 class="heading">Meet Our Specialists</h2>
-  <div class="team-grid">
-    <div class="team-member">
-      <img src="img/dc1.jpg" alt="Doctor 1" />
-      <h3>Dr. Sarah Khan</h3>
-      <p>Chief Medical Officer</p>
+<!-- MISSION SECTION -->
+<section class="about-section reveal">
+  <div class="about-inner">
+    <div class="about-text">
+      <div class="section-label">Our Purpose</div>
+      <h2 class="section-title">Our <span>Mission</span></h2>
+      <p class="section-sub" style="margin-bottom:24px;">
+        MediNova Health Clinic is dedicated to providing exceptional healthcare built on compassion, trust, and relentless innovation. We believe true wellness comes from personalized care that addresses the whole person — body and mind.
+      </p>
+      <p style="color:var(--muted); font-size:16px; line-height:1.7;">
+        Every decision we make, every treatment we deliver, and every specialist we hire is guided by a single promise: to put the patient first. Your health journey deserves nothing less than excellence.
+      </p>
+      <div style="margin-top:32px;">
+        <a href="contact.html" class="btn-primary">Get in Touch <i class="fas fa-arrow-right"></i></a>
+      </div>
     </div>
-    <div class="team-member">
-      <img src="img/dc2.jpg" alt="Doctor 2" />
-      <h3>Dr. James Ali</h3>
-      <p>Senior Cardiologist</p>
-    </div>
-    <div class="team-member">
-      <img src="img/dc3.jpg" alt="Doctor 3" />
-      <h3>Dr. Ayesha Malik</h3>
-      <p>Pediatric Specialist</p>
-    </div>
-    <div class="team-member">
-      <img src="img/dc4.jpg" alt="Doctor 4" />
-      <h3>Dr. Omar Rehman</h3>
-      <p>Orthopedic Surgeon</p>
+    <div class="about-img">
+      <img src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=800&q=80" alt="Our Mission" />
     </div>
   </div>
 </section>
 
-<!-- ===== ACHIEVEMENTS ===== -->
-<section class="achievements">
-  <div class="achievements-content">
-    <h2>Our Achievements</h2>
-    <ul>
-      <li><i class="fas fa-check-circle"></i> ISO 9001 Certified Healthcare Facility</li>
-      <li><i class="fas fa-check-circle"></i> Over 25,000 patients successfully treated annually</li>
-      <li><i class="fas fa-check-circle"></i> Winner of “Excellence in Patient Care” Award 2024</li>
-      <li><i class="fas fa-check-circle"></i> 95% patient satisfaction rate</li>
+<!-- STORY SECTION -->
+<section class="about-section reveal" style="background:var(--bg2); border-top:1px solid var(--border); border-bottom:1px solid var(--border);">
+  <div class="about-inner reverse">
+    <div class="about-text">
+      <div class="section-label">Since 2012</div>
+      <h2 class="section-title">Our <span>Story</span></h2>
+      <p style="color:var(--muted); font-size:16px; line-height:1.7; margin-bottom:20px;">
+        Founded in 2012, MediNova began as a small community practice with one goal: to redefine the healthcare experience by making it more accessible, transparent, and patient-focused.
+      </p>
+      <p style="color:var(--muted); font-size:16px; line-height:1.7;">
+        Over the past decade, our dedicated team has grown into a multi-disciplinary facility offering advanced medical treatments, digital diagnostics, and preventive care for thousands of families. Today, MediNova stands as a beacon of excellence — combining medical expertise with cutting-edge technology to deliver comprehensive healthcare you can rely on.
+      </p>
+    </div>
+    <div class="about-img">
+      <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80" alt="Our Story" />
+    </div>
+  </div>
+</section>
+
+<!-- VALUES SECTION -->
+<section class="values-section reveal">
+  <div class="values-inner">
+    <div class="section-header">
+      <div class="section-label">What Drives Us</div>
+      <h2 class="section-title">Our Core <span>Values</span></h2>
+      <p class="section-sub" style="margin:0 auto;">The principles we live by every single day at MediNova Health Clinic.</p>
+    </div>
+    <div class="values-grid">
+      <div class="value-card">
+        <div class="value-icon"><i class="fas fa-hand-holding-heart"></i></div>
+        <h3>Compassion</h3>
+        <p>We treat every patient like family, offering care rooted deeply in empathy and genuine understanding.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon"><i class="fas fa-user-md"></i></div>
+        <h3>Expertise</h3>
+        <p>Certified doctors and specialists ensure world-class medical services across all departments.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon"><i class="fas fa-laptop-medical"></i></div>
+        <h3>Innovation</h3>
+        <p>State-of-the-art diagnostic and treatment technologies to deliver the most precise results.</p>
+      </div>
+      <div class="value-card">
+        <div class="value-icon"><i class="fas fa-balance-scale"></i></div>
+        <h3>Integrity</h3>
+        <p>Complete transparency and ethics in every aspect of our practice, ensuring your trust and safety.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TEAM SECTION -->
+<section class="team-section reveal">
+  <div class="team-inner">
+    <div class="section-header">
+      <div class="section-label">Our People</div>
+      <h2 class="section-title">Meet Our <span>Specialists</span></h2>
+      <p class="section-sub" style="margin:0 auto;">World-class physicians committed to your health and recovery.</p>
+    </div>
+    <div class="team-grid">
+      <div class="team-card">
+        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=400&q=80" alt="Dr. Sarah Khan" />
+        <div class="team-info">
+          <h3>Dr. Sarah Khan</h3>
+          <p>Chief Medical Officer</p>
+          <div class="team-social">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="team-card">
+        <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=400&q=80" alt="Dr. James Ali" />
+        <div class="team-info">
+          <h3>Dr. James Ali</h3>
+          <p>Senior Cardiologist</p>
+          <div class="team-social">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="team-card">
+        <img src="https://images.unsplash.com/photo-1527613426441-4da17471b66d?w=400&q=80" alt="Dr. Ayesha Malik" />
+        <div class="team-info">
+          <h3>Dr. Ayesha Malik</h3>
+          <p>Pediatric Specialist</p>
+          <div class="team-social">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="team-card">
+        <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=400&q=80" alt="Dr. Omar Rehman" />
+        <div class="team-info">
+          <h3>Dr. Omar Rehman</h3>
+          <p>Orthopedic Surgeon</p>
+          <div class="team-social">
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ACHIEVEMENTS -->
+<section class="achievements-section reveal">
+  <div class="achievements-inner">
+    <div class="ach-text">
+      <div class="section-label">Recognition</div>
+      <h2 class="section-title">Our <span>Achievements</span></h2>
+      <p class="section-sub">Over a decade of excellence, recognized globally and trusted locally.</p>
+      <div style="margin-top:32px;">
+        <a href="contact.html" class="btn-primary">Book Appointment <i class="fas fa-calendar-check"></i></a>
+      </div>
+    </div>
+    <ul class="ach-list">
+      <li class="ach-item"><i class="fas fa-certificate"></i><span>ISO 9001 Certified Healthcare Facility</span></li>
+      <li class="ach-item"><i class="fas fa-users"></i><span>Over 25,000 patients successfully treated annually</span></li>
+      <li class="ach-item"><i class="fas fa-trophy"></i><span>Winner — "Excellence in Patient Care" Award 2024</span></li>
+      <li class="ach-item"><i class="fas fa-star"></i><span>95% patient satisfaction rate — 3 consecutive years</span></li>
     </ul>
   </div>
 </section>
 
-<!-- ===== FOOTER ===== -->
+<!-- FOOTER -->
 <footer>
-  <div class="footer-sec">
-    <div class="sec">
-      <div class="f_box">
-        <h2>Contact</h2>
-        <p>Email: info@lifecare.com</p>
-        <p>Phone: +91 98765 43210</p>
-        <p>Facebook | Instagram | Twitter</p>
-      </div>
-      <div class="f_box">
-        <h2>Departments</h2>
-        <p>Radiology</p>
-        <p>Pharmacology</p>
-        <p>Pathology</p>
-        <p>Anatomy</p>
+  <div class="footer-main">
+    <div class="footer-brand">
+      <a href="index.html" class="logo">
+        <img src="https://cdn-icons-png.flaticon.com/512/2966/2966327.png" alt="Logo" />
+        Medi<span>Nova</span>
+      </a>
+      <p>Advanced, compassionate healthcare delivered by world-class specialists.</p>
+      <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-whatsapp"></i></a>
       </div>
     </div>
-
-    <div class="sec">
-      <div class="f_box">
-        <h2>Address</h2>
-        <p>LifeCare Health Clinic, Garden Town, Block 4, Lahore</p>
-        <p>
-          <i class="fab fa-facebook"></i>
-          <i class="fab fa-snapchat"></i>
-          <i class="fab fa-whatsapp"></i>
-        </p>
-      </div>
-      <div class="f_box">
-        <h2>Facilities</h2>
-        <p>24/7 Emergency</p>
-        <p>Qualified Doctors</p>
-        <p>Modern Equipment</p>
-      </div>
+    <div class="footer-col">
+      <h4>Navigation</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="departments.html">Departments</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Departments</h4>
+      <ul>
+        <li><a href="departments.html">Cardiology</a></li>
+        <li><a href="departments.html">Radiology</a></li>
+        <li><a href="departments.html">Pediatrics</a></li>
+        <li><a href="departments.html">Neurology</a></li>
+        <li><a href="departments.html">Orthopedics</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="mailto:info@medinova.com">info@medinova.com</a></li>
+        <li><a href="tel:+919876543210">+91 98765 43210</a></li>
+        <li><a href="#">Garden Town, Block 4</a></li>
+        <li><a href="#">Mon–Sat: 9 AM – 8 PM</a></li>
+        <li><a href="#">Sunday: Emergency Only</a></li>
+      </ul>
     </div>
   </div>
-  <p class="para">© 2025 LifeCare Health Clinic. All Rights Reserved.</p>
+  <div class="footer-bottom">
+    © 2025 <span>MediNova Health Clinic</span>. All Rights Reserved.
+  </div>
 </footer>
 
 <script src="index.js"></script>
-
 </body>
 </html>
